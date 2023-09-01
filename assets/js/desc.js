@@ -5,8 +5,20 @@ const portfolioTitles = [
   "Gadget Lover",
   "GTA Fanatic",
   "Analyst",
-  "Python Developer"
+  "Python Developer",
+  "Programmer",
+  "Creator of Search Nexus"
 ];
+
+// Shuffle the array using Fisher-Yates algorithm
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+shuffleArray(portfolioTitles);
 
 let currentIndex = 0;
 
