@@ -3,7 +3,9 @@ const portfolioTitles = [
   "CyberSpace Explorer",
   "Jurassic Geek",
   "Gadget Lover",
-  "GTA Fanatic"
+  "GTA Fanatic",
+  "Analyst",
+  "Python Developer"
 ];
 
 let currentIndex = 0;
@@ -13,4 +15,4 @@ function displayNextTitle() {
   currentIndex = (currentIndex + 1) % portfolioTitles.length;
 }
 
-setInterval(displayNextTitle, 3000);
+setInterval(displayNextTitle, 2000);
