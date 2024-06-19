@@ -6,8 +6,8 @@ const portfolioTitles = [
   "GTA Fanatic",
   "Analyst",
   "Python Developer",
-  "Programmer",
-  "Creator of Search Nexus"
+  "Programmer"
+  // "Creator of Nexus"
 ];
 
 // Shuffle the array using Fisher-Yates algorithm
